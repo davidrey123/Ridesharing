@@ -3,7 +3,12 @@ Benchmark instances for ridesharing or dial-a-ride problems
 
 This repository contains instances for benchmarking ridesharing or dial-a-ride algorithms. Each file contains a list of trips requests with time-window and pickup and dropoff location data.
 
-These instances were synthesized based on observed trips in the city of Melbourne, Australia obtained from the Australian Bureau of Statistics http://www.abs.gov.au/.
+These instances were synthesized based on observed trips in the city of Melbourne, Australia obtained from the Australian Bureau of Statistics http://www.abs.gov.au/. For each instance a random sample of observed trips was selected. Three instances sizes are provided **small** (S), **medium** (M) and **large** (L):  
+S instances correspond to 0.25% of the daily travel demand in Melbourne  
+M instances correspond to 0.50% of the daily travel demand in Melbourne   
+L instances correspond to 0.75% of the daily travel demand in Melbourne  
+
+Instances are named as follows: "Ridesharing_SIZE_ID.csv" where SIZE is S, M or L and ID is a unique identifier corresponding to a random sample of observed trips of size SIZE. 
 
 The description of the columns in the instances is provided below.
 
